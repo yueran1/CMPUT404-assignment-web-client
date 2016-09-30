@@ -76,7 +76,7 @@ class HTTPClient(object):
 	header= header+ "Connection: close\r\n"
 	header= header+ "Accept-Encoding: */*\r\n"
 	
-	#This part handle the http POST method	
+	#This part handle the http encode and body length	
 	if method == "POST":
 	    if args == None:
 		length = "0"
